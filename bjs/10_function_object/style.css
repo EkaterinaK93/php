@@ -1,0 +1,22 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+.card-header {
+    background-color:rgb(189, 236, 182);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
+}
+
+.card-body {
+    background-color:rgb(255, 250, 240);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: larger;
+}
+
+.card-footer {
+    background-color:rgb(189, 236, 182);
+}
