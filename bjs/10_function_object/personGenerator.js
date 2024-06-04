@@ -72,11 +72,11 @@ const personGenerator = {
             "id_2": "Слесарь",
             "id_3": "Электрик",
             "id_4": "Пожарный",
-            "id_5": "Полицейский"
-            "id_6": "Врач"
-            "id_7": "Психолог"
-            "id_8": "Уролог"
-            "id_9": "Военный"
+            "id_5": "Полицейский",
+            "id_6": "Врач",
+            "id_7": "Психолог",
+            "id_8": "Уролог",
+            "id_9": "Военный",
             "id_10": "Дворник"
         }
     }`,
@@ -92,7 +92,7 @@ const personGenerator = {
             "id_7": "Врач",
             "id_8": "Психолог",
             "id_9": "Гениколог",
-            "id_10": "Воспитатель",
+            "id_10": "Воспитатель"
         }
     }`,
 
@@ -139,8 +139,6 @@ const personGenerator = {
     },
 
     randomРrofession: function() {
-        return "Водитель";
-        // return this.randomValue(this.professionMaleJson) ;
         if (this.person.gender == 'Мужчина') {
             return this.randomValue(this.professionMaleJson);
         } 
